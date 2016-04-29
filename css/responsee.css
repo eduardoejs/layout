@@ -71,7 +71,7 @@ form {line-height:1.4em;}
 nav {
   display:block;
   width:100%;
-  background:#262626;
+  background:#fff;
 }
 .line:after,nav:after,.center:after,.box:after {
   clear:both;
@@ -86,6 +86,7 @@ nav {
   position:absolute;
   background:#262626;
 }
+
 .top-nav li {
   float:left;
   list-style:none outside none;
@@ -94,14 +95,16 @@ nav {
 .top-nav li a {
   padding:1.25em;
   display:block;
-  color:#fff; 
+  color:#848484; 
 }
 .top-nav li ul li a {
-  background:none repeat scroll 0 0 #222;
+  background:none repeat scroll 0 0 #991215;
+  color:#fff;
   min-width:100%;
   padding:0.625em;
 }
-.top-nav li a:hover, .aside-nav li a:hover {background:#999;}
+.top-nav li a:hover, .aside-nav li a:hover {background:#991215; color:#fff;}
+.top-nav li ul li a:hover {background: #610b0b; color: #fff;}
 .top-nav li ul {display:none;}
 .top-nav li ul li {
   float:none;
@@ -353,7 +356,7 @@ nav {
   color:#222;
 }
 .nav-text {
-  color:#fff;
+  color:#b9b9b9;
   display:block;
   font-size:1.2em;
   line-height:3em;
