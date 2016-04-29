@@ -47,5 +47,22 @@ padding:3.5em 0;
   #slide-wrapper figure figcaption{display:none;}    
 }
 
+#first-block a > h2{-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;}
 #first-block a:hover > h2{background: #951215; color:#fff;}
 #first-block a:hover > p{color: #951215;}
+
+#second-block .btn{display:inline-block; padding:8px 18px 10px; border:1px solid; 
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;}
+#second-block .btn, #second-block .btn.inverse:hover{color:#FFFFFF; background-color:#992d2e; border-color:#A1C6D9;}
+#second-block .btn:hover, #second-block .btn.inverse{color:inherit; background-color:transparent; border-color:#951215; 
+	background-color: transparent; 
+    color: #951215;}
+#second-block .btn-footer{display:block; margin:0; padding:0;margin-top:20px; background-color: transparent;}
+#second-block .btn-footer a{color: #fff;}
+
+
+#second-block article.margin-bottom{margin-top: 20px; text-align: justify; margin-left: auto; margin-right: auto; height: auto;}
+#second-block article.margin-bottom h4{margin-top: 10px; margin-bottom: 10px; text-align: center;}
+#second-block article.margin-bottom p {line-height:1.5em;}
