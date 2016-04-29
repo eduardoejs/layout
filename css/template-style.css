@@ -46,3 +46,6 @@ padding:3.5em 0;
   .wrapper{max-width:95%;}
   #slide-wrapper figure figcaption{display:none;}    
 }
+
+#first-block a:hover > h2{background: #951215; color:#fff;}
+#first-block a:hover > p{color: #951215;}
