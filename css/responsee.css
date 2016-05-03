@@ -11,7 +11,8 @@
 	margin:0;	
   }
 body {
-	background:none repeat scroll 0 0 #d3d3d3;
+	/*background:none repeat scroll 0 0 #d3d3d3;*/
+  background:none repeat scroll 0 0 #43545c;
 	font-size:100%;
   /*font-family:"Open Sans",Arial,sans-serif;*/
   font-family:"Ubuntu",Arial,sans-serif;
@@ -71,7 +72,8 @@ form {line-height:1.4em;}
 nav {
   display:block;
   width:100%;
-  background:#fff;
+  background:#b21117;  
+  border-top: 1px solid #fff;
 }
 .line:after,nav:after,.center:after,.box:after {
   clear:both;
@@ -95,7 +97,7 @@ nav {
 .top-nav li a {
   padding:1.25em;
   display:block;
-  color:#848484; 
+  color:#fff; 
 }
 .top-nav li ul li a {
   background:none repeat scroll 0 0 #991215;
@@ -356,7 +358,7 @@ nav {
   color:#222;
 }
 .nav-text {
-  color:#b9b9b9;
+  color:#fff;
   display:block;
   font-size:1.2em;
   line-height:3em;
